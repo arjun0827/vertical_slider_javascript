@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    position: absolute;  
+    left: 34%;
+    top: 50%;
+    z-index: 5;
+    border: none;
+}
+
+#up{
+    position: absolute;
+    top: -38px;
+    right: -52px;
+    height: 45px;
+    width: 34px;
+}
+
+#down{
+    position: absolute;
+    bottom: -50px;
+    right: -20px;
+    height: 45px;
+    width: 34px;
+}
+
+
+.left-carousel{
+    width: 35%;
+    position: absolute;
+    z-index: 4;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+}
+
+.left-carousel-slides{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#motorBike{
+    background-color: gray;
+}
+
+#lemon{
+    background-color: orange;
+}
+
+#car{
+  background-color: green;
+}
+
+#yoga{
+    background-color: cadetblue;
+}
+
+.carousel {
+    width: 65%;
+    margin: auto;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    /* overflow: hidden; */
+}
+
+
+
+.carousel-slides {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: 4px solid black; */
+    /* height: 100vh; */
+}
+
+.carousel-slides img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
